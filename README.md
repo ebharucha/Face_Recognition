@@ -1,7 +1,7 @@
 # ebharucha
 
 # Face_Recognition
-Recognize faces using CV2 & custom Pytorch model
+Recognize faces using CV2 & custom Pytorch CNN model leveraging Transfer Learning
 
 Usage: python face_capture_predict.py [-c] [-p]<br>
 -c for capturing sampel images for training<br>
