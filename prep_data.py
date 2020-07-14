@@ -57,6 +57,7 @@ class DatasetImg(Dataset):
         return(self.X.shape[0])
 
 # Define class to display sample images from dataloader
+# Courtesy Python Engineer https://www.youtube.com/channel/UCbXgNpp0jedKWcQiULLbDTA
 class imdisplay():
     def __init__(self, dataloader):
         dataiter = iter(dataloader)
